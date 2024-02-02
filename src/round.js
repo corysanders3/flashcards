@@ -9,7 +9,7 @@ function createRound(deck) {
         incorrectGuesses: []
     }
     return newRound;
-};
+}
 
 function takeTurn(guess, round) {
     round.turns++
@@ -36,17 +36,17 @@ function endRound(round) {
         prototypeQuestions.forEach((question) => {
             round.incorrectGuesses.forEach((idNum) => {
                 if(question.id === idNum) {
-                    missedQs.push(question)
+                    missedQs.push(question);
                 }
-            })
-        })
+            });
+        });
         console.log('Here are the questions you missed, and the correct answer...')
         missedQs.forEach((q) => {
-            console.log(`${q.id}: ${q.question}`)
-            console.log(`Answer: ${q.correctAnswer}`)
-        })
+            console.log(`${q.id}: ${q.question}`);
+            console.log(`Answer: ${q.correctAnswer}`);;
+        });
         return `** Round over! ** You answered ${calculatePercentCorrect(round)}% of the questions correctly!`;
     }
-}
+};
 
 module.exports = { createRound, takeTurn, calculatePercentCorrect, endRound };
