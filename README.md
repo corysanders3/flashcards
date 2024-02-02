@@ -6,7 +6,7 @@ This project is a fully functioning game within the terminal. The game is a mult
 ### Gameplay Screenshot from the Terminal:<img width="912" alt="Screenshot 2024-01-31 at 4 12 49 PM" src="https://github.com/corysanders3/flashcards/assets/41808895/866da7c7-a707-4c09-9d40-58247cd3a3de">
 
 ### Technologies Used
-Javascript was used to create this game. Mocha and Chai were used to test the Javascript functions.
+JavaScript was used to create this game. Mocha and Chai were used to test the Javascript functions.
 
 ### Install/Setup Instructions
 1. Go to this [GitHub Page](https://github.com/corysanders3/flashcards) and fork the repository.
