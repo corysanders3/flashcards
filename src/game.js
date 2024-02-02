@@ -17,7 +17,7 @@ function start() {
   const cards = prototypeQuestions.map((question) => {
     return question;
   });
-  const deck = cards.map((card) => {
+  const deck = cards.filter((card) => {
       return card;
   });
 
