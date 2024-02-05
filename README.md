@@ -1,4 +1,4 @@
-# FlashCards Starter Kit
+# FlashCards
 
 ### Abstract
 This project is a fully functioning game within the terminal. The game is a multiple choice questionnaire to test your knowledge with Javascript and, specifically, array iterator methods. Give it a shot and see how you do!
